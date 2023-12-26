@@ -5,12 +5,10 @@ let image = document.querySelector("img");
 
 image.onclick = () => {
 	let mySrc = image.getAttribute("src");
-	if(mySrc === "images/cityBlack.jpg") {
-		image.setAttribute('src', 'images/cityRed.png');
-	} else if (mySrc === "images/cityRed.png") {
-		image.setAttribute('src', 'images/car.jpeg');
+	if(mySrc === "images/cake0.png") {
+		image.setAttribute('src', 'images/cake1.png');
 	} else {
-		image.setAttribute('src', 'images/cityBlack.jpg');
+		image.setAttribute('src', 'images/cake0.png');
 	}
 }
 
