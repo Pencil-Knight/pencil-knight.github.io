@@ -105,6 +105,65 @@ header img,
     z-index: 9;
 } */
 
+
+
+.timer__items {
+  display: flex;
+  font-size: 18px;
+	position: absolute;
+	top: 65.5rem;
+	left: 23rem;
+	color: #D4D4D4;
+}
+.timer__item {
+  position: relative;
+  min-width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.timer__item::before {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 10px;
+}
+.timer__item:not(:last-child)::after {
+  content: ':';
+  position: absolute;
+  right: -15px;
+}
+
+
+/* .timer {
+	position: absolute;
+	z-index: 100;
+	font-size: 25px;
+	top: 69rem;
+	right: 35px;
+	color: #fff;
+	font-weight: 500;
+ width: 200px;
+}
+
+.time_word {
+	font-size: 12px;
+	font-weight: 300;
+
+} */
+
+/* .smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+} */
+
+
+
+
 .polotno-2 {
     margin-top: -15rem;
 }
