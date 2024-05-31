@@ -56,11 +56,11 @@ $(document).ready(function() {
 }
 
 
-//Таймер
+//Таймер с конечной датой
 
 // document.addEventListener('DOMContentLoaded', function() {
 //   // конечная дата, например 1 июля 2021
-//   const deadline = new Date(2024, 0o5, 0o1);
+//   const deadline = new Date(2024, 0o5, 0o1); //дата задается со значением: месяц -1 (11-й месяц декабрь)
 //   // id таймера
 //   let timerId = null;
 //   // склонение числительных
@@ -98,6 +98,7 @@ $(document).ready(function() {
 // });
 
 
+//Таймер при обновлении востанавливается (3 часа)
 
 class CountdownTimer {
 	constructor(deadline, cbChange, cbComplete) {
@@ -151,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const elSeconds = document.querySelector('.timer .timer__seconds');
 
 	(function timer() {
-		const deadline = new Date(Date.now() + ( 3 * 60 * 60 * 1000 + 999));
+		const deadline = new Date(Date.now() + ( 3 * 60 * 60 * 1000 + 999)); //изменение времени таймера (Дни * часы * минуты * секунды * милисекунды (последние 2 значения не трогать))
 		new CountdownTimer(deadline, (timer) => {
 			// elDays.textContent = timer.days;
 			elHours.textContent = timer.hours;
