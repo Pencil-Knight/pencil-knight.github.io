@@ -106,8 +106,10 @@ class CountdownTimer {
 		this._cbComplete = cbComplete;
 		this._timerId = null;
 		this._out = {
-			days: '', hours: '', minutes: '', seconds: '',
-			daysTitle: '', hoursTitle: '', minutesTitle: '', secondsTitle: ''
+			// days: '',
+			 hours: '', minutes: '', seconds: '',
+			// daysTitle: '',
+			 hoursTitle: '', minutesTitle: '', secondsTitle: ''
 		};
 		this._start();
 	}
@@ -120,15 +122,15 @@ class CountdownTimer {
 	}
 	_calc() {
 		const diff = this._deadline - new Date();
-		const days = diff > 0 ? Math.floor(diff / 1000 / 60 / 60 / 24) : 0;
+		// const days = diff > 0 ? Math.floor(diff / 1000 / 60 / 60 / 24) : 0;
 		const hours = diff > 0 ? Math.floor(diff / 1000 / 60 / 60) % 24 : 0;
 		const minutes = diff > 0 ? Math.floor(diff / 1000 / 60) % 60 : 0;
 		const seconds = diff > 0 ? Math.floor(diff / 1000) % 60 : 0;
-		this._out.days = days < 10 ? '0' + days : days;
+		// this._out.days = days < 10 ? '0' + days : days;
 		this._out.hours = hours < 10 ? '0' + hours : hours;
 		this._out.minutes = minutes < 10 ? '0' + minutes : minutes;
 		this._out.seconds = seconds < 10 ? '0' + seconds : seconds;
-		this._out.daysTitle = CountdownTimer.declensionNum(days, ['день', 'дня', 'дней']);
+		// this._out.daysTitle = CountdownTimer.declensionNum(days, ['день', 'дня', 'дней']);
 		this._out.hoursTitle = CountdownTimer.declensionNum(hours, ['час', 'часа', 'часов']);
 		this._out.minutesTitle = CountdownTimer.declensionNum(minutes, ['минута', 'минуты', 'минут']);
 		this._out.secondsTitle = CountdownTimer.declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
@@ -143,7 +145,7 @@ class CountdownTimer {
 document.addEventListener('DOMContentLoaded', () => {
 
 	// .timer (на минуту)
-	const elDays = document.querySelector('.timer .timer__days');
+	// const elDays = document.querySelector('.timer .timer__days');
 	const elHours = document.querySelector('.timer .timer__hours');
 	const elMinutes = document.querySelector('.timer .timer__minutes');
 	const elSeconds = document.querySelector('.timer .timer__seconds');
@@ -151,11 +153,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	(function timer() {
 		const deadline = new Date(Date.now() + ( 3 * 60 * 60 * 1000 + 999));
 		new CountdownTimer(deadline, (timer) => {
-			elDays.textContent = timer.days;
+			// elDays.textContent = timer.days;
 			elHours.textContent = timer.hours;
 			elMinutes.textContent = timer.minutes;
 			elSeconds.textContent = timer.seconds;
-			elDays.dataset.title = timer.daysTitle;
+			// elDays.dataset.title = timer.daysTitle;
 			elHours.dataset.title = timer.hoursTitle;
 			elMinutes.dataset.title = timer.minutesTitle;
 			elSeconds.dataset.title = timer.secondsTitle;
