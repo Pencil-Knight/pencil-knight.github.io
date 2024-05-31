@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'Good Vibes Pro';
+	src: url('../fonts/good_vibes_pro.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/good_vibes_pro.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/good_vibes_pro.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/good_vibes_pro.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/good_vibes_pro.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JOURNALISM';
+    src: url('../fonts/JOURNALISM.eot');
+    src: local('../fonts/JOURNALISM'),
+        url('../fonts/JOURNALISM.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/JOURNALISM.woff2') format('woff2'),
+        url('../fonts/JOURNALISM.woff') format('woff'),
+        url('../fonts/JOURNALISM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('../fonts/BebasNeue'),
+        url('..//fonts/BebasNeueBold.woff') format('woff'),
+        url('..//fonts/BebasNeueBold.woff2') format('woff2'),
+
+        url('..//fonts/BebasNeue-Regular.ttf') format('truetype');
+        
+    font-weight: normal;
+    font-style: normal;
+}

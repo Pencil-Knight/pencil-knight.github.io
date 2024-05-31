@@ -1,0 +1,342 @@
+:root {
+    --content-font: 'Montserrat';
+    --main-bg: #000000;
+}
+a {
+    text-decoration-line: inherit;
+    color: #3E2EF9;
+    text-decoration-line: underline;
+    line-height: 20px;
+    text-decoration-color:#3E2EF9 ;
+    font-weight: 400;
+    font-family: Montserrat;
+    text-align: center;
+    font-size:17px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: var(--content-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--main-text-color);
+}
+
+body {
+    padding: 0 0 0 0;
+    background-color: var(--main-bg);
+    max-width: 428px;
+    margin-inline: auto;
+      
+    
+}
+
+section {
+    margin-bottom:-1px;
+    position: relative;
+   
+}
+.wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto !important;
+        min-height: 100%;
+        overflow-x: hidden
+    }
+    
+.h1 {
+    text-align: center;
+    color: white;
+    font-family: Bebas Neue;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    display: inline-flex;
+    padding-bottom: 10px;
+    
+
+}
+.tittle_button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.tittle_button_div {
+    background: #13CF31;
+    height: 52px;
+    width: 198px;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.tittle_button_div:hover {
+    height: 52px;
+    width: 198px;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 10px;
+    justify-content: center;
+    background: #17ff3d;
+}
+
+.tittle_div_button{
+    justify-content: center;
+    display: flex;
+}
+.tittle_button_text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5%;
+    line-height: 17px;
+    color: white;
+    text-decoration-line: underline;
+    position: absolute;
+
+}
+
+
+.item_bg {
+    background: #FF02E7;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    padding: 40px 5px 0px 5px;
+    margin-top: 40px
+}
+
+.item {
+    padding: 0 3rem 1.5rem 0;
+    width: 100%;
+}
+
+.item_list {
+    width: 100%;
+    margin-left: -38px;
+}
+
+
+.item_text {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 39px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.item_img_div{
+    padding-bottom: 5.5rem;
+    justify-content: center;
+    display: flex;
+}
+.item_img_picture{
+}
+
+.item_img{
+    height: 188px;
+    width: 337px;
+    border-radius: 10px
+}
+
+.item_special_offer {
+    background: #5647FF;
+    border-radius: 20px;
+    margin: -50px 40px 0px 40px;
+    padding: 50px 0px 0px 0px;
+}
+.item_special_offer_div {
+    background: #FF0000;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto 0px 0px 0px;
+    align-items: center;
+}
+
+.item_div_black_friday{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+
+.item_black_friday {
+    background: #FF0000;
+    border-radius: 150px;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding: 6.71px 14.87px 7.66px 14.12px;
+    font-family: 'Bebas Neue';
+
+}
+
+.item_special_offer_div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.item_special_offer_text {
+    font-size: 17px;
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    padding: 0px 40px 0px 40px;
+
+}
+.item_special_offer_price {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    
+}
+.strong {
+    font-family: Bebas Neue;
+    font-size: 120px;
+    color: white;
+}
+
+.item_special_offer_img{
+    position: absolute;
+    margin: 65px 0px 0px 65px;
+}
+.item_special_offer_hat1 {
+    position: absolute;
+    top: 83%;
+    right: 0%;
+}
+.item_special_offer_hat2 {
+    position: absolute;
+    left: 0%;
+    top: 81%;
+}
+.container {
+    margin-inline: auto;
+    width: max-content;
+    position: relative;
+    margin: 0 auto;
+}
+
+.img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+.q {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    
+}
+.shrift {
+        color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+.secondtext {
+    text-align:center;
+}
+
+.text {
+    font-family: Montserrat;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 188px;
+    max-height: 160px;
+    position: relative;
+
+}
+
+.timer {
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 90px;
+    font-weight: 400;
+    align-items: center;
+    padding-top: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.timer_bg {
+    background: #FF02E7;
+    padding-bottom: 80px;
+}
+.button_div {
+    background: linear-gradient(90deg, #FDE696 0%, #EEB854 100%);
+    height: 70px;
+    width: 233px;
+    margin-top: 52px;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+.button {
+    width: 233px;
+    height: 70px;
+    position: absolute;
+
+}
+.button_div:hover {
+    height: 70px;
+    width: 233px;
+    margin-top: 52px;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 10px;
+    justify-content: center;
+    background: linear-gradient(90deg, #EEB854 0%,  #FDE696 100%);
+}
+
+.div_button{
+    justify-content: center;
+    display: flex;
+}
+.button_text {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5%;
+    line-height: 17px;
+    color: #5F441C;
+
+}
+
+
