@@ -109,7 +109,8 @@ header img,
     margin-top: -15rem;
 }
 .polotno3 {
-	width: 428px;
+	width: 100%;
+  position: relative;
 }
 
 .slider {
