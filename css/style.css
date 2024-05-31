@@ -2,6 +2,7 @@
     --title-font: 'JOURNALISM';
     --content-font: 'Montserrat';
     --decor-font: 'Klementina';
+		--decor-font: 'SFUIDisplay'
 }
 
 * {
@@ -113,10 +114,10 @@ header img,
   font-size: 20px;
 	font-weight: 500;
 	position: absolute;
-	top: 65.5rem;
+	top: 65.3rem;
 	left: 49%;
 	color: #D4D4D4;
-	font-family: SF Pro Display;
+	font-family: SFUIDisplay;
 	font-weight: 600;
 }
 .timer__item {
@@ -150,32 +151,6 @@ header img,
   position: absolute;
   right: -15px;
 } */
-
-
-/* .timer {
-	position: absolute;
-	z-index: 100;
-	font-size: 25px;
-	top: 69rem;
-	right: 35px;
-	color: #fff;
-	font-weight: 500;
- width: 200px;
-}
-
-.time_word {
-	font-size: 12px;
-	font-weight: 300;
-
-} */
-
-/* .smalltext{
-  padding-top: 5px;
-  font-size: 16px;
-} */
-
-
-
 
 .polotno-2 {
     margin-top: -15rem;
