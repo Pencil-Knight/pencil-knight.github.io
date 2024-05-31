@@ -132,9 +132,9 @@ class CountdownTimer {
 		this._out.minutes = minutes < 10 ? '0' + minutes : minutes;
 		this._out.seconds = seconds < 10 ? '0' + seconds : seconds;
 		// this._out.daysTitle = CountdownTimer.declensionNum(days, ['день', 'дня', 'дней']);
-		this._out.hoursTitle = CountdownTimer.declensionNum(hours, ['час', 'часа', 'часов']);
-		this._out.minutesTitle = CountdownTimer.declensionNum(minutes, ['минута', 'минуты', 'минут']);
-		this._out.secondsTitle = CountdownTimer.declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
+		this._out.hoursTitle = CountdownTimer.declensionNum(hours, ['год', 'год', 'год']);
+		this._out.minutesTitle = CountdownTimer.declensionNum(minutes, ['хв', 'хв', 'хв']);
+		this._out.secondsTitle = CountdownTimer.declensionNum(seconds, ['сек', 'сек', 'сек']);
 		this._cbChange ? this._cbChange(this._out) : null;
 		if (diff <= 0) {
 			clearInterval(this._timerId);
