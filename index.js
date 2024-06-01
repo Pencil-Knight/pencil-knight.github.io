@@ -126,3 +126,57 @@ document.addEventListener('DOMContentLoaded', () => {
 	})();
 
 });
+
+
+
+
+  //   // Функція для форматування часу
+	// 	function formatTime(number) {
+	// 		return number < 10 ? `0${number}` : number;
+	// }
+	
+	// // Функція для запуску таймера
+	// function startTimer(endTime, display) {
+	// 		function updateTimer() {
+	// 				let now = new Date().getTime();
+	// 				let remainingTime = endTime - now;
+	
+	// 				if (remainingTime < 0) {
+	// 						remainingTime = 0;
+	// 				}
+	
+	// 				let hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	// 				let minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+	// 				let seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+	
+	// 				display.hours.textContent = formatTime(hours);
+	// 				display.minutes.textContent = formatTime(minutes);
+	// 				display.seconds.textContent = formatTime(seconds);
+	
+	// 				if (remainingTime === 0) {
+	// 						clearInterval(interval);
+	// 				}
+	// 		}
+	
+	// 		updateTimer();
+	// 		const interval = setInterval(updateTimer, 1000);
+	// }
+	
+	// window.onload = function () {
+	// 		const duration = 60 * 60 * 3 * 1000; // 3 години в мілісекундах
+	// 		const display = {
+	// 				hours: document.getElementById('hours'),
+	// 				minutes: document.getElementById('minutes'),
+	// 				seconds: document.getElementById('seconds')
+	// 		};
+	
+	// 		let endTime = localStorage.getItem('endTime');
+			
+	// 		if (endTime === null) {
+	// 				endTime = new Date().getTime() + duration;
+	// 				localStorage.setItem('endTime', endTime);
+	// 		}
+	
+	// 		startTimer(endTime, display);
+	// };
+			

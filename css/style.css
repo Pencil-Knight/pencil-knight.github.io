@@ -97,7 +97,7 @@ header img,
 }
 
 .btn-3 {
-		top: 522.5rem;
+		/* top: 522.5rem; */
 		width: 100%;
 		margin: 0;
 		margin-bottom: 80px;
@@ -178,19 +178,28 @@ header img,
 }
 
 .slider-item {
-    border-radius: 10px;
+    /* border-radius: 10px; */
     overflow: hidden;
+		/* border: 20px; */
+		border-radius: 10px;
+		border-color: #FF2F69;
+		
 }
 
 .slick-slide img {
-    width: 30.7rem;
+    width: 30rem;
     margin: 0 auto;
+		border: 10px;
     border-radius: 10px;
+		border-color: #FF2F69;
 }
 
 .slider-item img {
     width: 30.7rem;
     margin: 0 auto;
+		border: 2px;
+		border-radius: 10px;
+		border-color: #FF2F69;
 }
 
 .slider .title {
