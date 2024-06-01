@@ -97,6 +97,14 @@ header img,
 }
 
 .btn-3 {
+		top: 522.5rem;
+		width: 100%;
+		margin: 0;
+		margin-bottom: 80px;
+		align-items: center;
+		justify-content: center;
+}
+.btn-5 {
 		/* top: 522.5rem; */
 		width: 100%;
 		margin: 0;
