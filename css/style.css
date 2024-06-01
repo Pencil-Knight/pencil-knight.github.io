@@ -114,6 +114,55 @@ header img,
     z-index: 9;
 } */
 
+
+
+.timer__items {
+  display: flex;
+	flex-direction: row;
+  font-size: 20px;
+	font-weight: 500;
+	position: absolute;
+	top: 65.3rem;
+	left: 49%;
+	color: #D4D4D4;
+	font-family: SFUIDisplay;
+	font-weight: 600;
+}
+.timer__item {
+  position: relative;
+  min-width: 1%;
+  margin-left: 0;
+  margin-right: 0;
+	padding: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.timer__seconds {
+	margin-left: -12px;
+}
+.timer__minutes {
+	margin-left: 0;
+	/* margin-right: -5px; */
+	
+}
+.timer__item::before {
+  content: attr(data-title);
+  display: flexbox;
+  position: relative;
+  left: 114%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 10px;
+}
+/* .timer__item:not(:last-child)::after {
+  content: ':';
+  position: absolute;
+  right: -15px;
+} */
+
+
+
+
 .polotno-2 {
     margin-top: -15rem;
 }
