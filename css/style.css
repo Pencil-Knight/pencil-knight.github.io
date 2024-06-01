@@ -97,12 +97,14 @@ header img,
 }
 
 .btn-3 {
-    /* top: 505rem; */
+		top: 522.5rem;
 		margin: 0;
 		margin-bottom: 80px;
+		align-items: center;
+		justify-content: center;
 }
 
-/* .btn4 {
+.btn4 {
     top: 71rem;
     position: fixed;
     bottom: 0;
@@ -112,7 +114,7 @@ header img,
     width: 37.6rem;
     height: 10rem;
     z-index: 9;
-} */
+}
 
 
 
