@@ -52,7 +52,7 @@ $(document).ready(function() {
     } else{
         btn1.classList.remove('btn4');
     }
-		if(window.scrollY > 1800){
+		if(window.scrollY > 12000){
 			btn1.classList.remove('btn4');
 }
 }
