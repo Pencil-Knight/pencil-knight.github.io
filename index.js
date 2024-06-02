@@ -51,8 +51,10 @@ $(document).ready(function() {
         btn1.classList.add('btn4');
     } else{
         btn1.classList.remove('btn4');
-
     }
+		if(window.scrollY > 12800){
+			btn1.classList.remove('btn4');
+}
 }
 
 
