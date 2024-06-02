@@ -43,6 +43,7 @@ html {
 }
 
 body {
+		/* height: 14000px; */
     background-color: #f8f4f4;
     max-width: 428px;
     margin: 0 auto;
@@ -114,7 +115,7 @@ header img,
 }
 
 .btn4 {
-    top: 65rem;
+    top: 80%;
     position: fixed;
     bottom: 0;
     background-image: url(../images/btn.png);
@@ -124,7 +125,9 @@ header img,
     height: 10rem;
     z-index: 9;
 }
-
+.hide {
+	display: none;
+}
 
 
 .timer__items {

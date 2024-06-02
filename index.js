@@ -47,15 +47,27 @@ $(document).ready(function() {
   window.onscroll = function showHeader(){
     let btn1 = document.querySelector('.btn1');
 
-    if(window.scrollY > 50){
+		let scrollPosition = window.scrollY;
+    if(scrollPosition > 50){
         btn1.classList.add('btn4');
     } else{
         btn1.classList.remove('btn4');
     }
-		if(window.scrollY > 11800){
-			btn1.classList.remove('btn4');
+
 }
+
+window.addEventListener('scroll', function () {
+	let btn1 = document.querySelector('.btn1');
+	let pageHeight = document.documentElement.scrollHeight;
+  let scrollPosition = window.scrollY;
+	
+	if(scrollPosition > (pageHeight -1200)){
+	btn1.classList.add('hide');
+}else if(scrollPosition < (pageHeight -1200)){
+	btn1.classList.remove('hide');
 }
+});
+
 
 
 //Таймер при обновлении востанавливается (3 часа)
