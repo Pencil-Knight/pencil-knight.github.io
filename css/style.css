@@ -356,5 +356,77 @@ margin-bottom: 20px;
 	padding: 45px 42px;
 	text-align: center;
 }
+.aboutMaraphon {
+	margin-bottom: 250px;
+}
+
+
+
+
+/* slider */
+.slider {
+	padding-bottom: 22rem;
+	/* margin-top: -56rem; */
+	z-index: 5;
+	position: relative;
+}
+
+.slider-item {
+	overflow: hidden;
+	border: 1px solid #FF2F69;
+	border-radius: 10px;
+}
+
+.slick-slide img {
+	width: 30rem;
+	margin: 0 auto;
+	border: 10px;
+	border-radius: 10px;
+	border-color: #FF2F69;
+}
+
+.slider-item img {
+	width: 30.7rem;
+	margin: 0 auto;
+	border: 2px;
+	border-radius: 10px;
+	border-color: #FF2F69;
+}
+
+/* .slider .title {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5rem;
+	width: 30.7rem;
+	user-select: none;
+	pointer-events: none;
+} */
+
+.slick-prev,
+.slick-next {
+	bottom: -7.5rem !important;
+	top: auto !important;
+	transform: translate(0) !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	width: 5.3rem !important;
+	height: 5.3rem !important;
+	aspect-ratio: 53/53;
+}
+
+.slick-prev {
+	background-image: url("../images/slider-left.svg") !important;
+	left: calc(50% - 6rem) !important;
+}
+
+.slick-next {
+	background-image: url("../images/slider-right.svg") !important;
+	right: calc(50% - 6rem) !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+	display: none;
+}
 
 
