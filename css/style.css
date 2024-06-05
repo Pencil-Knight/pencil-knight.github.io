@@ -285,3 +285,63 @@ margin-bottom: 20px;
 	font-weight: 400;
 	margin-bottom: 30px;
 }
+.aboutStretching{
+	margin-bottom: 50px;
+}
+.yobanayaKartinka {
+	display: flex;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+.yobanayaKartinka img {
+	width: 43px;
+	margin: 0;
+}
+.discribeStretching {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'SF Pro Display';
+	color: #333333;
+	font-style: italic;
+	padding-left: 10px;
+	border: 1px solid #EBEBEB;
+	background: linear-gradient(42.59deg, #E3E3E3 19.35%, #FFFFFF 83.46%);
+	border-radius: 26px 4px 4px 26px;
+
+}
+.discribeStretching h5 {
+	font-weight: 400;
+	text-indent: 45px;
+	margin: 30px 10px 30px 30px;
+}
+.sellAndButton h1 {
+	color: #FF2F69;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'HeadingNow-95';
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+.sellAndButton img {
+	margin-bottom: 90px;
+}
+.maraphonTitle {
+	font-family: 'HeadingNow-95';
+	font-weight: 500;
+	font-size: 23px;
+	text-align: center;
+	background: radial-gradient(71.61% 123.17% at 28.39% 12.5%, #999999 0%, #606060 45.5%, #999999 71%, #333333 100%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	margin-bottom: 50px;
+}
+.maraphonBlock img {
+	width: 257px;
+}
+.maraphonBlock h5 {
+	font-size: 16px;
+	
+
+}
+
