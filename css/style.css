@@ -245,3 +245,43 @@ margin-bottom: 20px;
 .aboutAutor {
 	margin-top: 90px;
 }
+.aboutNastya {
+	border-left: 1px solid #D4D4D4;
+	border-right: 1px solid #D4D4D4;
+	border-radius: 100px;
+	margin-bottom: 50px;
+}
+.aboutNastya img {
+	width: 100px;
+	margin: 20px;
+}
+.aboutNastya h5 {
+	font-size: 16px;
+	color: #333333;
+	margin: 26px 20px 4px 0;
+}
+.aboutNastya h6 {
+	font-size: 14px;
+	color: #818181;
+	margin: 0 14px 26px 0;
+}
+.discribeAll {
+	display: flex;
+}
+.discribeAll img {
+	width: 199px;
+}
+.discribe h1 {
+	color: #FF2F69;
+	font-size: 36px;
+	font-family: 'HeadingNow-95';
+	font-weight: 500;
+	margin-bottom: 6px;
+}
+.discribe h5 {
+	color: #333333;
+	font-size: 16px;
+	font-family: 'SF Pro Display';
+	font-weight: 400;
+	margin-bottom: 30px;
+}
