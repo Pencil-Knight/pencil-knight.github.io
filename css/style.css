@@ -334,14 +334,27 @@ margin-bottom: 20px;
 	background: radial-gradient(71.61% 123.17% at 28.39% 12.5%, #999999 0%, #606060 45.5%, #999999 71%, #333333 100%);
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
+}
+.maraphonBlock {
+	margin-bottom: 150px;
 }
 .maraphonBlock img {
 	width: 257px;
+	position: relative;
+	top: 40px;
+	left: -20px;
 }
 .maraphonBlock h5 {
+	position: absolute;
 	font-size: 16px;
-	
-
+	font-family: 'SF Pro Display';
+	font-weight: 400;
+	border: 1px solid #D4D4D4;
+	background: linear-gradient(42.59deg, #E3E3E3 19.35%, #FFFFFF 83.46%);
+	border-radius: 26px;
+	padding: 45px 42px;
+	text-align: center;
 }
+
 
