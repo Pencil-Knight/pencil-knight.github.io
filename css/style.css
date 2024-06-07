@@ -343,10 +343,11 @@ margin-bottom: 20px;
 	width: 257px;
 	position: relative;
 	top: 40px;
-	left: -20px;
+	/* left: -20px; */
 }
 .maraphonBlock h5 {
 	position: absolute;
+	margin: 0 auto;
 	font-size: 16px;
 	font-family: 'SF Pro Display';
 	font-weight: 400;
@@ -362,10 +363,9 @@ margin-bottom: 20px;
 
 
 
-
 /* slider */
 .slider {
-	padding-bottom: 22rem;
+	padding-bottom: 9rem;
 	/* margin-top: -56rem; */
 	z-index: 5;
 	position: relative;
@@ -429,4 +429,92 @@ margin-bottom: 20px;
 	display: none;
 }
 
+.programMaraphon {
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	
+}
+.programMaraphon img {
+	width: 56px;
+	align-items: center;
+	padding: 8px;
+	border: 1px hidden #000;
+	border-radius: 50px;
+	background-color: #F5F5F5;
+	position: relative;
+	top: -30px;
+}
+.programHead h1 {
+	margin-bottom: 22px;
+}
+.programHead h5 {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'SF Pro Display';
+	text-align: center;
+}
+.programDays {
+	background: linear-gradient(42.59deg, #E3E3E3 19.35%, #FFFFFF 83.46%);
+	border-radius: 10px;
+	margin: 0 25px;
+	margin-bottom: 20px;
 
+}
+.programDays h1 {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'SF Pro Display';
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	background: linear-gradient(42.59deg, #FF2F69 0%, #FF799F 37%, #FF5E8B 64%, #FF2F69 100%);
+	border-radius: 2px 2px 20px 20px;
+	margin: 0 15%;
+	margin-bottom: 15px;
+}
+.programDays h5 {
+	font-family: 'SF Pro Display';
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	padding: 20px;
+}
+.programDays ul {
+	list-style-type: disc;
+	margin-left: 15%;
+	margin-right: 10%;
+	margin-bottom: 30px;
+	align-items: center;
+	text-align: center;
+}
+.programDays li {
+	font-family: 'SF Pro Display';
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	justify-content: center;
+	/* padding: 20px; */
+
+
+}
+.programDays h6{
+	color: #b1b1b1;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'SF Pro Display';
+	text-align: center;
+	margin-bottom: 50px;
+}
+.programDays img {
+	width: 330px;
+	border-radius: 10px;
+	padding: 0;
+}
+
+
+
+
+.shlyapa{
+	text-transform: lowercase;
+}
