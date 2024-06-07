@@ -22,11 +22,3 @@
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-	font-family: 'SFUIDisplay';
-	src: url('../fonts/SFUIDisplay-Semibold.ttf');
-	src: local('../fonts/SFUIDisplay'),
-			url('../fonts/SFUIDisplay-Semibold.ttf') format('truetype');
-	font-weight: 600;
-	font-style: normal;
-}
