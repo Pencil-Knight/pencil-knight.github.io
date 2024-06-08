@@ -20,3 +20,15 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('../fonts/BebasNeue'),
+        url('..//fonts/BebasNeueBold.woff') format('woff'),
+        url('..//fonts/BebasNeueBold.woff2') format('woff2'),
+
+        url('..//fonts/BebasNeue-Regular.ttf') format('truetype');
+        
+    font-weight: normal;
+    font-style: normal;
+}
