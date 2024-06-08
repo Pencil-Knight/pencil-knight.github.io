@@ -410,7 +410,7 @@ footer li {
 		line-height: 178%;
 		margin-top: 150px ;
 		margin-bottom: 2.7rem;
-		margin-left: 11%;
+		/* margin-left: 11%; */
 /* text-align: center; */
 	}
 	
@@ -453,7 +453,6 @@ footer li {
 	.FAQ .questionsItem {
 		background: transparent;
 		overflow: hidden;
-		/* max-height: 140rem; */
 		transition: max-height 0.5s ease-in;
 		cursor: pointer;
 		position: relative;
@@ -514,19 +513,23 @@ footer li {
 	}
 	footer {
 		padding-bottom: 5rem!important;
+		width: 428px;
 	}
 	footer .text-1 {
 		color: black;
 		font-size: 1.4rem;
 		font-weight: 400;
 		line-height: 178%;
-		margin-bottom: 2.7rem;
+		/* margin-top: 150px; */
+		/* margin-bottom: 2.7rem; */
 	}
 	
 	footer ul {
 		display: flex;
 		flex-direction: column;
 		gap: 2.4rem;
+		position: relative;
+		top: 120px;
 	}
 	.btn-3 {
 		width: 100%;
