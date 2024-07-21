@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Калькулятор для расчета солнечных панелей</h1>
+	<div class="wrapper">
+		<p>U =</p>
+	<input type="number" class="inputU" value="">
+	<p>I =</p>
+	<input type="number" class="inputI" value="">
+</div>
+	<button class="btn">Рассчитать</button>
+<div class="resistanse wrapper">
+	R = U/I = <div class="resistansResult"></div>
+</div>
+<div class="resistanse wrapper">
+	R<sub>обр</sub> = 10*R = <div class="revResistansResult"></div>
+</div>
+<div class="resistanse wrapper">
+	I<sub>обр</sub> = U/(R+R<sub>обр</sub>) = <div class="revCurrentResult"></div>
+</div>
+<div class="resistanse wrapper">
+	W<sub>обр</sub> = U*I<sub>обр</sub> = <div class="revPowerResult"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="main.js"></script>
+</body>
+</html>
