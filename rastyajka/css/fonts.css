@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'JOURNALISM';
+    src: url('../fonts/JOURNALISM.eot');
+    src: local('../fonts/JOURNALISM'),
+        url('../fonts/JOURNALISM.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/JOURNALISM.woff2') format('woff2'),
+        url('../fonts/JOURNALISM.woff') format('woff'),
+        url('../fonts/JOURNALISM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Klementina';
+    src: url('../fonts/Klementina.eot');
+    src: local('../fonts/Klementina'),
+        url('../fonts/Klementina.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Klementina.woff2') format('woff2'),
+        url('../fonts/Klementina.woff') format('woff'),
+        url('../fonts/Klementina.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'SFUIDisplay';
+	src: url('../fonts/SFUIDisplay-Semibold.ttf');
+	src: local('../fonts/SFUIDisplay'),
+			url('../fonts/SFUIDisplay-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
